@@ -1,8 +1,9 @@
 @import "tailwindcss";
 
-body, html {
+#root, body, html {
   width:100vw;
   height:100vh;
   overflow : hidden;
-  background-color: grey;
+  background-image: url("./assets/bg.png");
+  background-size: cover;
 }
