@@ -19,7 +19,7 @@ const Navigation = ({ donnees }) => {
         </p>
         )}
       </div>
-      {console.log(donnees)}
+      {/* {console.log(donnees)} */}
     </div>
 );
 
