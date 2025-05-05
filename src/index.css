@@ -6,4 +6,19 @@
   overflow : hidden;
   background-image: url("./assets/bg.png");
   background-size: cover;
+  /* background-color: black; */
+}
+
+:root{
+  --red : #711C1C;
+  --bleuF : #0f2c3e;
+  --orange:#f08928;
+  --bleuC:#164664;
+  --bleuBtn:#1e5d82;
+  --outline:#3785ae;
+  --bleuText:#ade1ff;
+  --voyantOn:#8cf1ff;
+  --voyantOff:#19323e;
+  --bouton:#0c1c2c;
+  --gris:#2e3335;
 }
