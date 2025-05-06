@@ -1,5 +1,7 @@
 // import { useEffect, useState } from "react";
 // import axios from "axios";
+import GraphRond from "./components/GraphRond";
+
 
 const page = ({donnees, config}) => {
 
@@ -24,12 +26,12 @@ const page = ({donnees, config}) => {
 
   return (
     <div className="flex flex-col gap-4 px-14 w-full h-full ">
-      <div className="flex w-full gap-4 justify-between mt-8 h-[24vw] border-2 border-blue-500">
-        <div className="marque flex w-[24vw] h-full bg-(--gris) border-2 border-white">
+      <div className="flex w-full gap-4 justify-between mt-8 h-[24vw]">
+        <div className="marque flex w-[24vw] h-full bg-(--gris)">
           <img className=" overflow-hidden size-[24vw]" src={config.RSI_URL + donnees[0].manufacturer.media[0].images.cover} alt="" />
         </div>
-        <div className="upgrade flex w-[36vw] h-full bg-(--gris) border-2 border-white">
-          2
+        <div className="upgrade flex justify-center items-center w-[36vw] h-full bg-(--gris)">
+          <GraphRond/>
         </div>
         <div className="ici grid grid-cols-2 gap-4 w-[30vw] h-full flex-wrap">
           <div className="famille flex bg-(--gris)">1</div>
