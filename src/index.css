@@ -4,9 +4,9 @@
   width:100vw;
   height:100vh;
   overflow : hidden;
-  background-image: url("./assets/bg.png");
-  background-size: cover;
-  /* background-color: black; */
+  /* background-image: url("./assets/bg.png");
+  background-size: cover; */
+  background-color: black;
 }
 
 :root{
@@ -21,4 +21,39 @@
   --voyantOff:#19323e;
   --bouton:#0c1c2c;
   --gris:#2e3335;
+}
+@font-face {
+  font-family: 'EuroStyleNormal';
+  src: url('/src/assets/EuroStyleNormal.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'EurostileBold';
+  src: url('/src/assets/EurostileBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'EurostileExtended';
+  src: url('/src/assets/EurostileExtende-Roman.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'EurostileOblique';
+  src: url('/src/assets/Eurostile-Oblique.ttf') format('truetype');
+}
+
+.font-EuroStyleNormal {
+  font-family: 'EuroStyleNormal', sans-serif;
+}
+
+.font-EuroStyleBold {
+  font-family: 'EurostileBold', sans-serif;
+}
+
+.font-EuroStyleExtended {
+  font-family: 'EurostileExtended', sans-serif;
+}
+
+.font-EuroStyleOblique {
+  font-family: 'EurostileOblique', sans-serif;
 }

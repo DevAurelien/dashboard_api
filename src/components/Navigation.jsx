@@ -1,6 +1,6 @@
 const Navigation = ({ donnees }) => {
   return (
-    <div className="flex justify-between items-center px-20 h-16 bg-(--red)/50">
+    <div className="flex font-EuroStyleBold justify-between items-center px-10 py-1 h-20 bg-(--red)/50">
       <header className="flex text-white text-4xl">
         <h1>Ship DashBoard</h1>
       </header>
